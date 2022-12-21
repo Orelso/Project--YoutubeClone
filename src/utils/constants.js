@@ -11,9 +11,9 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------(Contains the Logo)------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------(Categories for the side bar)------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
   { name: 'JS Mastery', icon: <CodeIcon />, },
@@ -33,7 +33,7 @@ export const categories = [
   { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
-
+/* -------------------------------------------------------------------------------------------------------------------------------------------(If there are none it replaces them with these demos)------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
 export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
 export const demoVideoUrl = '/video/GDa8kZLNhJ4';
