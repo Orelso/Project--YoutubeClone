@@ -11,15 +11,14 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import PersonIcon from '@mui/icons-material/Person';
 /* -------------------------------------------------------------------------------------------------------------------------------------------(Contains the Logo)------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 export const logo = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKlTsxLC2SDIikTcOciHR5ByITGPyDrravUQ&usqp=CAU';
 /* -------------------------------------------------------------------------------------------------------------------------------------------(Categories for the side bar)------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
+  { name: 'Orelso', icon: <PersonIcon />, },
   { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'Orelso', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
